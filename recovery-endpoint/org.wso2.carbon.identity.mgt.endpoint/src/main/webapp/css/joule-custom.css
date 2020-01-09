@@ -197,3 +197,19 @@ body {
     color: #ffffff;
     background-color: #3A9ECF;
 }
+
+.nav--utility .nav__menu--language:before {
+    content: '';
+    display: block;
+    height: 15px;
+    width: 1px;
+    background: #79BDE8;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
